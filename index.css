@@ -111,18 +111,16 @@ footer {
         border: 1px solid black;
         border-collapse: collapse;
         margin: 0px 5px;
-        background-color: skyblue;
+        /* background-color: skyblue; */
     }
     .fix {
         /* background-color: yellow; */
-        height: 150px;
+        height: 152px;
         position: relative;
-        top: 20px;
+        top: 22px;
     }
     #reset {
-        /* width: 90px; */
-        display: inline-block;
-        /* margin-left: 520px; */
+        visibility: hidden;
     }
     input#bt_reset {
         position: relative;
