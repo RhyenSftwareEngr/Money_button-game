@@ -1,0 +1,149 @@
+/* * {
+    outline: 1px dotted red;
+} */
+
+body {
+    position: relative;
+    top: 20px;
+    width: 900px;
+    margin: 0px auto;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 20px 20px;
+}
+
+h1 {
+    width: 250px;
+    display: inline-block;
+    font-size: 15pt;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+
+/* #reset {
+    display: inline-block;
+    position: static;
+    right: 0px;
+} */
+
+h3 {
+    width: 150px;
+    margin-top: 0px;
+}
+
+main {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0px 5px;
+}
+
+#reset {
+    width: 90px;
+    display: inline-block;
+    margin-left: 520px;
+}
+
+#bt_reset {
+    color: blanchedalmond;
+    background-color: brown;
+}
+
+#bt_bet {
+    color: blanchedalmond;
+    background-color: green;
+}
+
+body .paragraph h4 {
+    margin-top: 100px;
+}
+
+#host {
+    width: 800px;
+    height: 25px;
+}
+
+footer {
+    border: 5px solid red;
+}
+
+@media only screen and (max-width: 500px) {
+    body {
+        position: relative;
+        top: 20px;
+        width: 250px;
+        margin: 0px auto;
+        border: 1px solid black;
+        border-collapse: collapse;
+        /* padding: 20px 20px; */
+    }
+    h1 {
+        width: 180px;
+        display: inline-block;
+        font-size: 15pt;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    /* #reset {
+        display: inline-block;
+        position: static;
+        right: 0px;
+    } */
+    h3 {
+        width: 150px;
+        margin-top: 0px;
+    }
+    main {
+        text-align: center;
+    }
+    form {
+        display: inline-block;
+        width: 95px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin: 0px 5px;
+        background-color: skyblue;
+    }
+    .fix {
+        /* background-color: yellow; */
+        height: 150px;
+        position: relative;
+        top: 20px;
+    }
+    #reset {
+        /* width: 90px; */
+        display: inline-block;
+        /* margin-left: 520px; */
+    }
+    input#bt_reset {
+        position: relative;
+        right: 350px;
+    }
+    #bt_reset {
+        color: blanchedalmond;
+        background-color: brown;
+    }
+    #bt_bet {
+        color: blanchedalmond;
+        background-color: green;
+    }
+    body .paragraph h4 {
+        margin-top: 50px;
+    }
+    #host {
+        width: 800px;
+        height: 25px;
+    }
+    footer {
+        border: 5px solid red;
+    }
+}

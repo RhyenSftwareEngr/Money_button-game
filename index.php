@@ -15,7 +15,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="reset.css">
     <title>Money Button Game</title>
     
@@ -38,7 +38,7 @@
             <input type="submit" name="bt_one" id="bt_bet" value="Bet">
             <p>by -25 up to 100</p>
         </form>
-        <form action="process.php" method="POST">
+        <form class="fix" action="process.php" method="POST">
             <h2>Moderate Risk</h2>
             <input type="hidden" name="action" value="mid_bet"/>
             <input type="submit" name="bt_two" id="bt_bet" value="Bet">
